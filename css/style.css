@@ -1252,7 +1252,7 @@ p.copy a:hover{
 	left: 40em;
 }
 }
-@media (max-width:1200px){
+@media (max-width:1150px){
 .tiles {
 	height: 700px;
 	width: 1000px;
