@@ -37,7 +37,7 @@ body a{
 }
 .header_mac {
 	position: absolute;
-	left: 353px;
+	left: 27.5%;
 	top: 277px;
 }
 .header_mac i.icon1 {
@@ -62,7 +62,7 @@ body a{
 }
 .header_book {
 	position: absolute;
-	left: 585px;
+	left: 38.5%;
 	top: 271px;
 }
 .header_book i.icon2 {
@@ -76,7 +76,7 @@ body a{
 }
 .logo {
 	position: absolute;
-	left: 266px;
+	left: 234px;
 	top: 471px;
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
@@ -85,7 +85,7 @@ body a{
 }
 .header_team {
 	position: absolute;
-	left: 470px;
+	left: 33.45%;
 	top: 635px;
 }
 .header_team i.icon3 {
@@ -99,7 +99,7 @@ body a{
 }
 .header_about {
 	position: absolute;
-	left: 722px;
+	left: 45.45%;
 	top: 635px;
 }
 .header_about i.icon4 {
@@ -110,7 +110,7 @@ body a{
 }
 .header_contact {
 	position: absolute;
-	left: 946px;
+	left: 59.45%;
 	top: 387px;
 }
 .header_contact i.icon5{
@@ -1103,8 +1103,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -245px -404px;
 	position: absolute;
-	left:991px;
-	top: 192px;
+	left:264px;
+	top: 180px;
 }
 .header_social ul li a i.fb1:hover, .header_social ul li a i.tw1:hover, .header_social ul li a i.db1:hover, .header_social ul li a i.g1:hover, .header_social ul li a i.skype:hover, .header_social ul li a i.vimeo:hover{
 	opacity:0.8;
@@ -1115,8 +1115,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -294px -404px;
 	position: absolute;
-	left: 1071px;
-	top: 192px;
+	left: 323px;
+	top: 181px;
 }
 .header_social ul li a i.db1 {
 	width: 36px;
@@ -1124,8 +1124,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -342px -404px;
 	position: absolute;
-	left: 1148px;
-	top: 192px;
+	left: 374px;
+	top: 180px;
 }
 .header_social ul li a i.g1 {
 	width: 36px;
@@ -1133,8 +1133,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -389px -405px;
 	position: absolute;
-	left: 1030px;
-	top: 265px;
+	left: 234px;
+	top: 249px;
 }
 .header_social ul li a i.skype{
 	width: 36px;
@@ -1142,8 +1142,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -444px -405px;
 	position: absolute;
-	left: 1151px;
-	top: 270px;
+	left: 329px;
+	top: 256px;
 }
 .header_social ul li a i.vimeo{
 	width: 36px;
@@ -1151,8 +1151,8 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -27px -452px;
 	position: absolute;
-	left: 1108px;
-	top: 314px;
+	left: 264px;
+	top: 298px;
 }
 #toTop {
 	display: none;
@@ -1172,7 +1172,7 @@ p.copy a:hover{
 .header_mac {
 	left: 228px;
 }
-.header_book {
+.header_book   {
 	left: 460px;
 }
 .logo {
@@ -1189,22 +1189,26 @@ p.copy a:hover{
 	left: 823px;
 }
 .header_social ul li a i.fb1 {
-	left: 866px;
+	left: 266px;
 }
 .header_social ul li a i.tw1 {
-	left: 946px;
+	left: 321px;
 }
 .header_social ul li a i.db1 {
-	left: 1024px;
+	left: 372px;
+	top:178px;
 }
 .header_social ul li a i.g1 {
-	left: 905px;
+	left: 237px;
+	top:246px;
 }
 .header_social ul li a i.skype {
-	left: 1028px;
+	left: 328px;
+	top:255px;
 }
 .header_social ul li a i.vimeo {
-	left: 984px;
+	left: 264px;
+	top:295px;
 }
 .header_arrow {
 	left: 40em;
@@ -1280,32 +1284,32 @@ p.copy a:hover{
 	top: 527px;
 }
 .header_contact {
-	left: 621px;
+	left: 643px;
 	top: 318px;
 }
 .header_social ul li a i.fb1 {
-	left: 663px;
-	top: 158px;
+	left: 231px;
+	top: 141px;
 }
 .header_social ul li a i.tw1 {
-	left: 730px;
-	top: 158px;
+	left: 276px;
+	top: 143px;
 }
 .header_social ul li a i.db1 {
-	left: 794px;
-	top: 157px;
+	left: 313px;
+	top: 143px;
 }
 .header_social ul li a i.g1 {
-	left: 694px;
-	top: 216px;
+	left: 195px;
+	top: 200px;
 }
 .header_social ul li a i.skype {
-	left: 797px;
-	top: 221px;
+	left: 267px;
+	top: 203px;
 }
 .header_social ul li a i.vimeo {
-	left: 762px;
-	top: 259px;
+	left: 209px;
+	top: 239px;
 }
 .header {
 	min-height: 900px;
