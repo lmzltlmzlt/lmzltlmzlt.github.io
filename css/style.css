@@ -34,10 +34,15 @@ body a{
 	position: relative;
 	min-height:910px;
 	text-align:center;
+    /* new added*/
+    max-width: 1300px;
+  width: 100%;
+  margin: auto;
 }
 .header_mac {
 	position: absolute;
-	left: 27.5%;
+	/*left: 353px;*/
+    left:17%;
 	top: 277px;
 }
 .header_mac i.icon1 {
@@ -62,7 +67,8 @@ body a{
 }
 .header_book {
 	position: absolute;
-	left: 38.5%;
+	/*left: 585px;*/
+    left:35%;
 	top: 271px;
 }
 .header_book i.icon2 {
@@ -76,8 +82,10 @@ body a{
 }
 .logo {
 	position: absolute;
-	left: 234px;
-	top: 471px;
+    left:12%;
+    top:490px;
+	/*left: 266px;
+	top: 471px;*/
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
@@ -85,7 +93,8 @@ body a{
 }
 .header_team {
 	position: absolute;
-	left: 33.45%;
+	/*left: 470px;*/
+    left:26%;
 	top: 635px;
 }
 .header_team i.icon3 {
@@ -99,7 +108,8 @@ body a{
 }
 .header_about {
 	position: absolute;
-	left: 45.45%;
+	/*left: 722px;*/
+    left:44%;
 	top: 635px;
 }
 .header_about i.icon4 {
@@ -110,7 +120,8 @@ body a{
 }
 .header_contact {
 	position: absolute;
-	left: 59.45%;
+	/*left: 946px;*/
+    left:64%;
 	top: 387px;
 }
 .header_contact i.icon5{
@@ -1103,8 +1114,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -245px -404px;
 	position: absolute;
-	left:264px;
-	top: 180px;
+	/*left:991px;*/
+    left:65%;
+	top: 192px;
 }
 .header_social ul li a i.fb1:hover, .header_social ul li a i.tw1:hover, .header_social ul li a i.db1:hover, .header_social ul li a i.g1:hover, .header_social ul li a i.skype:hover, .header_social ul li a i.vimeo:hover{
 	opacity:0.8;
@@ -1115,8 +1127,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -294px -404px;
 	position: absolute;
-	left: 323px;
-	top: 181px;
+	/*left: 1071px;*/
+    left:71.5%;
+	top: 192px;
 }
 .header_social ul li a i.db1 {
 	width: 36px;
@@ -1124,8 +1137,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -342px -404px;
 	position: absolute;
-	left: 374px;
-	top: 180px;
+	/*left: 1148px;*/
+    left:77.5%;
+	top: 192px;
 }
 .header_social ul li a i.g1 {
 	width: 36px;
@@ -1133,8 +1147,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -389px -405px;
 	position: absolute;
-	left: 234px;
-	top: 249px;
+	/*left: 1030px;*/
+    left:68.5%;
+	top: 265px;
 }
 .header_social ul li a i.skype{
 	width: 36px;
@@ -1142,8 +1157,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -444px -405px;
 	position: absolute;
-	left: 329px;
-	top: 256px;
+	/*left: 1151px;*/
+    left:77.5%;
+	top: 270px;
 }
 .header_social ul li a i.vimeo{
 	width: 36px;
@@ -1151,8 +1167,9 @@ p.copy a:hover{
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -27px -452px;
 	position: absolute;
-	left: 264px;
-	top: 298px;
+	/*left: 1108px;*/
+    left:74.3%;
+	top: 314px;
 }
 #toTop {
 	display: none;
@@ -1168,14 +1185,59 @@ p.copy a:hover{
 	background: url(../images/back-top.png) no-repeat 0px 0px;
 }
 /*--responsive design--*/
+/*new added*/
+ @media (min-width: 956px) and (max-width: 1148px) {
+    .tiles {
+        max-width:1050px;
+        width:100%;
+    }
+    .header_mac {
+        left:11%;
+    }
+    .header_book {
+        left:31%;
+    }
+    .logo {
+        left:3%;
+    }
+    .header_team {
+        left:20%;
+    }
+    .header_about {
+        left:43%;
+    }
+    .header_contact {
+        left:67%;
+    }
+  .header_social ul li a i.fb1 {
+	left: 69%;
+}
+.header_social ul li a i.tw1 {
+	left: 76.5%;
+}
+.header_social ul li a i.db1 {
+	left: 83.5%;
+}
+.header_social ul li a i.g1 {
+	left: 73%;
+}
+.header_social ul li a i.skype {
+	left: 84%;
+}
+.header_social ul li a i.vimeo {
+	left: 80%;
+}  
+           
+        }
+
 @media (max-width:1366px){
-.header_mac {
+/*.header_mac {
 	left: 228px;
-}
-.header_book   {
+}*/
+/*.header_book {
 	left: 460px;
-}
-.logo {
+}*/
+/*.logo {
 	left: 143px;
 	top: 471px;
 }
@@ -1189,36 +1251,32 @@ p.copy a:hover{
 	left: 823px;
 }
 .header_social ul li a i.fb1 {
-	left: 266px;
+	left: 866px;
 }
 .header_social ul li a i.tw1 {
-	left: 321px;
+	left: 946px;
 }
 .header_social ul li a i.db1 {
-	left: 372px;
-	top:178px;
+	left: 1024px;
 }
 .header_social ul li a i.g1 {
-	left: 237px;
-	top:246px;
+	left: 905px;
 }
 .header_social ul li a i.skype {
-	left: 328px;
-	top:255px;
+	left: 1028px;
 }
 .header_social ul li a i.vimeo {
-	left: 264px;
-	top:295px;
-}
+	left: 984px;
+}*/
 .header_arrow {
 	left: 40em;
 }
 }
 @media (max-width:1280px){
-.header_mac {
+/*.header_mac {
 	left: 185px;
-}
-.header_book {
+}*/
+/*.header_book {
 	left: 418px;
 }
 .logo {
@@ -1251,23 +1309,23 @@ p.copy a:hover{
 }
 .header_social ul li a i.vimeo {
 	left: 941px;
-}
+}*/
 .header_arrow {
 	left: 40em;
 }
 }
 @media (max-width:1279px){
-.tiles {
+/*.tiles {
 	height: 700px;
 	width: 1000px;
 	display: inline-block;
 	background-size: 100%;
-}
-.header_mac {
+}*/
+/*.header_mac {
 	left: 127px;
 	top: 226px;
-}
-.header_book {
+}*/
+/*.header_book {
 	left: 320px;
 	top: 223px;
 }
@@ -1284,33 +1342,33 @@ p.copy a:hover{
 	top: 527px;
 }
 .header_contact {
-	left: 643px;
+	left: 621px;
 	top: 318px;
 }
 .header_social ul li a i.fb1 {
-	left: 231px;
-	top: 141px;
+	left: 663px;
+	top: 158px;
 }
 .header_social ul li a i.tw1 {
-	left: 276px;
-	top: 143px;
+	left: 730px;
+	top: 158px;
 }
 .header_social ul li a i.db1 {
-	left: 313px;
-	top: 143px;
+	left: 794px;
+	top: 157px;
 }
 .header_social ul li a i.g1 {
-	left: 195px;
-	top: 200px;
+	left: 694px;
+	top: 216px;
 }
 .header_social ul li a i.skype {
-	left: 267px;
-	top: 203px;
+	left: 797px;
+	top: 221px;
 }
 .header_social ul li a i.vimeo {
-	left: 209px;
-	top: 239px;
-}
+	left: 762px;
+	top: 259px;
+}*/
 .header {
 	min-height: 900px;
 	padding-top: 2em;
@@ -1458,7 +1516,8 @@ label.btn1.btn4.btn-1.btn-1b {
 	margin: 2em 0 0 0;
 }
 }
-@media (max-width:800px){
+@media (max-width:955px){
+/*@media (max-width:800px){*/
 .header{
 	display:none;
 }
